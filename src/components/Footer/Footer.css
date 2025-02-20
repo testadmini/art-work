@@ -1,6 +1,5 @@
 .footer {
   position: relative;
-  top: 790px;
   color: white;
   text-align: center;
   display: block;
@@ -9,6 +8,7 @@
   flex-flow: column nowrap;
   padding: 0.8rem;
   justify-content: space-between;
+  margin-top: 60rem;
 }
 .footer > * {
   margin: 0.5rem;

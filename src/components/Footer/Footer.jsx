@@ -4,5 +4,5 @@ import "./Footer.css";
 export const Footer = () => {
   const copyrightYear = new Date().getFullYear();
 
-  return <div className="footer"></div>;
+  return <div className="footer">{copyrightYear}</div>;
 };

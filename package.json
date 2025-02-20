@@ -14,6 +14,7 @@
     "cors": "^2.8.5",
     "dayjs": "^1.11.7",
     "dotenv": "^16.4.5",
+    "ethers": "^6.13.5",
     "express": "^4.19.2",
     "express-fileupload": "^1.5.0",
     "jsonwebtoken": "^9.0.2",
@@ -47,7 +48,8 @@
     "start": "concurrently \"node server/index.js\" \"react-scripts start\"",
     "build": "concurrently \"node server/index.js\" \"react-scripts build\"",
     "test": "concurrently \"node server/index.js\" \"react-scripts test\"",
-    "eject": "concurrently \"node server/index.js\" \"react-scripts eject\""
+    "eject": "concurrently \"node server/index.js\" \"react-scripts eject\"",
+    "init": "react-scripts start"
   },
   "eslintConfig": {
     "extends": "react-app"
